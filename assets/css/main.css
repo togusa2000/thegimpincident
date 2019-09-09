@@ -2155,7 +2155,7 @@ input, select, textarea {
 		appearance: none;
 		border-radius: 0.325rem;
 		border: solid 2px rgba(144, 144, 144, 0.25);
-    background-color: var(--color-ccw);
+   background-color: var(--color-ccw);
 		color: var(--color-fg);
 		display: block;
 		outline: 0;
@@ -2187,7 +2187,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #000000;
+		color: var(--color-fg);
 		display: block;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.75rem;
