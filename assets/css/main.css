@@ -2068,6 +2068,7 @@ input, select, textarea {
 	form {
 		margin: 0 0 2rem 0;
 	}
+  
 
 		form > :last-child {
 			margin-bottom: 0;
@@ -2084,6 +2085,7 @@ input, select, textarea {
 			flex-wrap: wrap;
 			margin: -2rem 0 2rem -2rem;
 			width: calc(100% + 4rem);
+      color: var(--color-fg);
 		}
 
 			form > .fields > .field {
@@ -2097,6 +2099,7 @@ input, select, textarea {
 				flex-shrink: 0;
 				padding: 2rem 0 0 2rem;
 				width: calc(100% - 2rem);
+        color: var(--color-fg);
 			}
 
 				form > .fields > .field > :last-child {
